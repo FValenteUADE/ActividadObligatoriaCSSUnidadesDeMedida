@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +11,6 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Navegación */
 header {
     background-color: #333;
     padding: 1em 0;
@@ -40,25 +38,24 @@ header {
     color: #ffcc00;
 }
 
-/* Hero */
-.hero {
+.intro {
     background: url('resources/IMG_20171126_162849_089.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 5em 0;
 }
 
-.hero h1 {
+.intro h1 {
     font-size: 3em;
     margin-bottom: 20px;
 }
 
-.hero p {
+.intro p {
     font-size: 1.2em;
     margin-bottom: 30px;
 }
 
-.hero h1, .hero p {
+.intro h1, .intro p {
     background-color: rgba(0, 0, 0, 0.3);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -76,7 +73,6 @@ header {
     background-color: #e6b800;
 }
 
-/* Sección de menú */
 .menu {
     padding: 2em 0;
     background-color: #fff;
@@ -126,7 +122,34 @@ header {
     color: #333;
 }
 
-/* Footer */
+.contact {
+    padding: 2em 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.contact-details {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #333;
+}
+
+.contact a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
 footer {
     background-color: #333;
     color: white;
